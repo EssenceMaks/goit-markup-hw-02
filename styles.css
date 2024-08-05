@@ -33,15 +33,15 @@ a {
 /* #endregion */
 
 /* #region Navigation */
-.nav-link {
+.navigation-link {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--navy-blue);
 }
 
-.nav-link:hover,
-.nav-link:focus {
+.navigation-link:hover,
+.navigation-link:focus {
     color: var(--ocean);
 }
 /* #endregion */
@@ -61,40 +61,40 @@ a {
     color: var(--iris);
 }
 
-.logo-sub-clr {
+.logo-highlight {
     color: var(--navy-blue);
 }
 
-.logo-sub-clr-ftr {
+.logo-footer-highlight {
     color: var(--cloud);
 }
 /* #endregion */
 
 /* #region Address */
 
-.mail-tel {
+.contact-info {
     font-style: normal;
 }
 
-.mail-tel-link {
+.contact-link {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: inherit;
 }
 
-.mail-tel-link:hover,
-.mail-tel-link:focus {
+.contact-link:hover,
+.contact-link:focus {
     color: var(--ocean);
 }
 /* #endregion */
 
 /* #region Section Heading */
-.section-heading {
+.heading-section {
     background-color: var(--navy-blue);
 }
 
-.heading {
+.main-heading {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
@@ -103,7 +103,7 @@ a {
     color: var(--white);
 }
 
-.btn-order {
+.order-button {
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
@@ -115,14 +115,14 @@ a {
     cursor: pointer;
 }
 
-.btn-order:hover,
-.btn-order:focus {
+.order-button:hover,
+.order-button:focus {
     background-color: var(--ocean);
 }
 /* #endregion */
 
 /* #region Common */
-.sub-heading {
+.subheading {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -132,8 +132,8 @@ a {
     color: var(--navy-blue);
 }
 
-.item-title,
-.card-title {
+.title-item,
+.member-name {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -141,30 +141,30 @@ a {
     color: var(--navy-blue);
 }
 
-.card-title {
+.member-name {
     text-align: center;
 }
 
-.item-txt,
-.card-txt {
+.text-item,
+.member-description {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: inherit;
 }
 
-.card-title,
-.card-txt {
+.member-name,
+.member-description {
     text-align: center;
 }
 /* #endregion */
 
 /* #region Section Team */
-.section-team {
+.team-section {
     background-color: var(--cloud);
 }
 
-.member-card {
+.team-member {
     text-align: center;
     background-color: var(--white);
 }
@@ -179,7 +179,7 @@ a {
     background-color: var(--navy-blue);
 }
 
-.footer-txt {
+.footer-description {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--cloud);
